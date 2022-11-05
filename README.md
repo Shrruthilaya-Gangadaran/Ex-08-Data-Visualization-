@@ -62,7 +62,7 @@ sns.pointplot(x=df["Quantity"],y=df["Discount"])
 
 #6.Count plot
 sns.countplot(x="Category",data=df)
-sns.countplot(x="Sub-aCategory",data=df)
+sns.countplot(x="Sub-Category",data=df)
 
 #7.Histogram
 sns.histplot(data=df,x ='Ship Mode',hue='Sub-Category')
